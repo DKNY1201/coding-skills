@@ -1,4 +1,4 @@
-package Dojo.Array;
+package Dojo.Array.Array;
 
 import java.util.ArrayList;
 import java.util.List;
