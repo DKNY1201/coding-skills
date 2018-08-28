@@ -23,8 +23,6 @@ public class IsBinarySearchTree {
 
         TreeNode root2 = generateBinaryTree(map2, 24);
 
-
-
         travesalTree(root1);
         System.out.println("");
         travesalTree(root2);
