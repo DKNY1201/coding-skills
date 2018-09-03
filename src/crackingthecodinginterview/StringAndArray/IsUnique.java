@@ -9,27 +9,27 @@ import java.util.Hashtable;
  */
 public class IsUnique {
     public static void main(String[] args) {
-        System.out.println(isUnique1("abcdef"));
-        System.out.println(isUnique1("students"));
-        System.out.println(isUnique1("studenz"));
-        System.out.println("===========================");
-        System.out.println(isUnique2("abcdef"));
-        System.out.println(isUnique2("students"));
-        System.out.println(isUnique2("studenz"));
+//        System.out.println(isUnique1("abcdef"));
+//        System.out.println(isUnique1("students"));
+//        System.out.println(isUnique1("studenz"));
+//        System.out.println("===========================");
+//        System.out.println(isUnique2("abcdef"));
+//        System.out.println(isUnique2("students"));
+//        System.out.println(isUnique2("studenz"));
         System.out.println("===========================");
         System.out.println(isUnique3("abcdef"));
         System.out.println(isUnique3("students"));
-        System.out.println(isUnique3("studenz"));
+        System.out.println(isUnique3("studenzrt"));
         System.out.println("===========================");
-        System.out.println(isUnique4("abcdef"));
-        System.out.println(isUnique4("students"));
-        System.out.println(isUnique4("studenz"));
-        System.out.println("===========================");
-        System.out.println(isUnique5("abcdef"));
-        System.out.println(isUnique5("students"));
-        System.out.println(isUnique5("studenz"));
-        System.out.println(isUnique5("!@#$%^&*(!)123467890qwertyuiQWERTY"));
-        System.out.println(isUnique5("!@#$%^&*()123467890qwertyuiQWERTY"));
+//        System.out.println(isUnique4("abcdef"));
+//        System.out.println(isUnique4("students"));
+//        System.out.println(isUnique4("studenz"));
+//        System.out.println("===========================");
+//        System.out.println(isUnique5("abcdef"));
+//        System.out.println(isUnique5("students"));
+//        System.out.println(isUnique5("studenz"));
+//        System.out.println(isUnique5("!@#$%^&*(!)123467890qwertyuiQWERTY"));
+//        System.out.println(isUnique5("!@#$%^&*()123467890qwertyuiQWERTY"));
     }
 
     public static boolean isUnique1(String s) {
@@ -80,6 +80,7 @@ public class IsUnique {
 
         for (char c: s.toCharArray()) {
             int index = (int) c;
+            System.out.println(c + ": " + index);
             if (ascii[index]) {
                 return false;
             }
