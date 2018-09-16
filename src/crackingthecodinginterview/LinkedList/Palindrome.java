@@ -1,5 +1,7 @@
 package crackingthecodinginterview.LinkedList;
 
+import com.sun.org.apache.regexp.internal.RE;
+
 /**
  * Created by Bi on 9/12/18.
  */
@@ -31,8 +33,26 @@ public class Palindrome {
         node31.next = node41;
         node41.next = node51;
 
+        Node head11 = new Node(10);
+        Node node111 = new Node(9);
+        Node node211 = new Node(8);
+        Node node2111 = new Node(7);
+        Node node311 = new Node(8);
+        Node node411 = new Node(9);
+        Node node511 = new Node(10);
+
+        head11.next = node111;
+        node111.next = node211;
+        node211.next = node2111;
+        node2111.next = node311;
+        node311.next = node411;
+        node411.next = node511;
+
         System.out.println(palindromeReverseThenCompare(head));
         System.out.println(palindromeReverseThenCompare(head1));
+        System.out.println(palindromeRecursion(head));
+        System.out.println(palindromeRecursion(head1));
+        System.out.println(palindromeRecursion(head11));
     }
 
     public static boolean palindromeReverseThenCompare(Node head) {
@@ -59,5 +79,51 @@ public class Palindrome {
         }
 
         return true;
+    }
+
+    public static boolean palindromeRecursion(Node head) {
+        int len = getLengthLinkedList(head);
+        Result res = palindromeRecursion(head, len);
+        return res.truthy;
+    }
+
+    public static Result palindromeRecursion(Node head, int len) {
+        if (len == 0) {
+            return new Result(true, head);
+        }
+
+        if (len == 1) {
+            return new Result(true, head.next);
+        }
+
+        Result result = palindromeRecursion(head.next, len - 2);
+
+        if (!result.truthy || result.node == null) {
+            return result;
+        }
+
+        result.truthy = head.data == result.node.data;
+        result.node = result.node.next;
+
+        return result;
+    }
+
+    public static int getLengthLinkedList(Node head) {
+        int len = 0;
+        while (head != null) {
+            len++;
+            head = head.next;
+        }
+        return len;
+    }
+}
+
+class Result {
+    public boolean truthy;
+    public Node node;
+
+    public Result(boolean truthy, Node node) {
+        this.truthy = truthy;
+        this.node = node;
     }
 }
