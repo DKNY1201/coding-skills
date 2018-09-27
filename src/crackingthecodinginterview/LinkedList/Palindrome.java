@@ -2,6 +2,8 @@ package crackingthecodinginterview.LinkedList;
 
 import com.sun.org.apache.regexp.internal.RE;
 
+import java.util.Stack;
+
 /**
  * Created by Bi on 9/12/18.
  */
@@ -76,6 +78,31 @@ public class Palindrome {
             }
 
             count++;
+        }
+
+        return true;
+    }
+
+    public static boolean isPalindrome(Node head) {
+        Stack<Integer> firstHalf = new Stack<>();
+        Node fast = head;
+        Node slow = head;
+
+        while (fast != null && fast.next != null) {
+            firstHalf.add(slow.data);
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        while (!firstHalf.isEmpty()) {
+            if (firstHalf.pop() != slow.data) {
+                return false;
+            }
+            slow = slow.next;
         }
 
         return true;
