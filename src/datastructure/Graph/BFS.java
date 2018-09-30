@@ -1,15 +1,14 @@
-package datastructure;
+package datastructure.Graph;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * Created by Bi on 9/28/18.
  */
-public class Graph {
+public class BFS {
     public static void main(String[] args) {
-        Graph g = new Graph(4);
+        BFS g = new BFS(4);
 
         g.addEdge(0, 1);
         g.addEdge(0, 2);
@@ -27,7 +26,7 @@ public class Graph {
     private int V;
     private LinkedList<Integer>[] adj;
 
-    public Graph(int v) {
+    public BFS(int v) {
         this.V = v;
         adj = new LinkedList[v];
         for (int i = 0; i < v; i++) {
