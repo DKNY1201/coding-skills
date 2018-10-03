@@ -26,6 +26,20 @@ public class TreeUtils {
         traversalTreeInOrder(root.right);
     }
 
+    public static TreeNode insertion(TreeNode root, int val) {
+        if (root == null) {
+            return new TreeNode(val);
+        }
+
+        if (root.val <= val) {
+            root.right = insertion(root.right, val);
+        } else {
+            root.left = insertion(root.left, val);
+        }
+
+        return root;
+    }
+
     public static TreeNode generateBinaryTree(HashMap<Integer, Integer[]> map, int rootVal) {
         TreeNode root = new TreeNode(rootVal);
 
