@@ -52,6 +52,8 @@ public class DFS {
         System.out.println();
         g1.dfsRes(0);
         System.out.println();
+        g1.finalDFS(0);
+        System.out.println();
         g1.dfs(0);
     }
 
@@ -138,6 +140,38 @@ public class DFS {
             int k = i.next();
             if (!visited[k]) {
                 dfsRes(k, visited);
+            }
+        }
+    }
+
+    public void finalDFS(int s) {
+        Stack<Integer> stack = new Stack<>();
+        boolean[] visited = new boolean[V];
+
+        stack.push(s);
+
+        System.out.print(s + " ");
+        visited[s] = true;
+
+        while (!stack.isEmpty()) {
+            int v = stack.peek();
+
+            Iterator<Integer> iterator = adj[v].iterator();
+
+            while (iterator.hasNext()) {
+                int k = iterator.next();
+
+                boolean isNoUnvisitedAdj = true;
+                if (!visited[k]) {
+                    System.out.print(k + " ");
+                    visited[k] = true;
+                    stack.push(k);
+                    isNoUnvisitedAdj = false;
+                }
+
+                if (isNoUnvisitedAdj && !stack.isEmpty()) {
+                    stack.pop();
+                }
             }
         }
     }
