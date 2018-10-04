@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3468cd-5b8e-44d1-bc47-f7bbc56d519b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/crackingthecodinginterview/TreeAndGraph/CheckBalance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crackingthecodinginterview/TreeAndGraph/CheckBalance.java" afterPath="$PROJECT_DIR$/src/crackingthecodinginterview/TreeAndGraph/CheckBalance.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +86,11 @@
       <file leaf-file-name="CheckBalance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/TreeAndGraph/CheckBalance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="206">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -973,12 +973,12 @@
       <workItem from="1533617187651" duration="12117000" />
       <workItem from="1534037951678" duration="54819000" />
       <workItem from="1535997166504" duration="40222000" />
-      <workItem from="1538463376635" duration="8905000" />
+      <workItem from="1538463376635" duration="9583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138633000" />
+    <option name="totallyTimeSpent" value="139311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -1425,11 +1425,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/TreeAndGraph/CheckBalance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="206">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
           </folding>
         </state>
       </provider>

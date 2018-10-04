@@ -21,8 +21,10 @@ public class CheckBalance {
         System.out.println("");
         System.out.println("checkBalance: " + checkBalance(root));
         System.out.println("isBalance: " + isBalance(root));
+        System.out.println("checkBalance1: " + checkBalance1(root));
     }
 
+    /* Solution 1 */
     public static boolean checkBalance(TreeNode root) {
         return checkBalanceRes(root).truthy;
     }
@@ -45,6 +47,7 @@ public class CheckBalance {
         return new Result(truthy, height);
     }
 
+    /* Solution 2 */
     public static int getHeight(TreeNode root) {
         if (root == null) {
             return 0;
@@ -66,6 +69,30 @@ public class CheckBalance {
         }
 
         return isBalance(root.left) && isBalance(root.right);
+    }
+
+    /* Solution 3 */
+    public static int getHeight1(TreeNode root) {
+        if (root == null) return 0;
+
+        int lHeight = getHeight1(root.left);
+        int rHeight = getHeight1(root.right);
+
+        if (lHeight == Integer.MIN_VALUE || rHeight == Integer.MIN_VALUE) {
+            return Integer.MIN_VALUE;
+        }
+
+        if (Math.abs(lHeight - rHeight) > 1) {
+            return Integer.MIN_VALUE;
+        } else {
+            return (lHeight > rHeight ? lHeight : rHeight) + 1;
+        }
+    }
+
+    public static boolean checkBalance1(TreeNode root) {
+        if (root == null) return true;
+
+        return getHeight1(root) != Integer.MIN_VALUE;
     }
 }
 
