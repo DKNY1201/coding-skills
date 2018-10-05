@@ -26,6 +26,14 @@ public class TreeUtils {
         traversalTreeInOrder(root.right);
     }
 
+    public static int getSize(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        return getSize(root.left) + 1 + getSize(root.right);
+    }
+
     public static TreeNode insertion(TreeNode root, int val) {
         if (root == null) {
             return new TreeNode(val);
