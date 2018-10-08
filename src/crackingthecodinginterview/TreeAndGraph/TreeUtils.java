@@ -35,15 +35,23 @@ public class TreeUtils {
     }
 
     public static TreeNode insertion(TreeNode root, int val) {
+        return insertion(null, root, val);
+    }
+
+    public static TreeNode insertion(TreeNode parent, TreeNode root, int val) {
         if (root == null) {
-            return new TreeNode(val);
+            TreeNode newNode = new TreeNode(val);
+            newNode.parent = parent;
+            return newNode;
         }
 
         if (root.val <= val) {
-            root.right = insertion(root.right, val);
+            root.right = insertion(root, root.right, val);
         } else {
-            root.left = insertion(root.left, val);
+            root.left = insertion(root, root.left, val);
         }
+
+        root.parent = parent;
 
         return root;
     }

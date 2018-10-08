@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class ListOfDepths {
     public static void main(String[] args) {
-        TreeNode root = TreeUtils.insertion(null, 20);
+        TreeNode root = TreeUtils.insertion(null, null, 20);
         root = TreeUtils.insertion(root, 16);
         root = TreeUtils.insertion(root, 24);
         root = TreeUtils.insertion(root, 30);
