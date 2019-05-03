@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3468cd-5b8e-44d1-bc47-f7bbc56d519b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/SubSets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DynamicPrograming/NumOfSubArrayAddUpToK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumOfSubArrayAddUpToK.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumOfSubArrayAddUpToK.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/NumOfSubArrayAddUpToK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="210">
               <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KnapSack01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -65,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StringAndArray/ZeroMatrix.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/NodeUtils.java" />
@@ -116,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/GeeksForGeeks/RatInMaze.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/SubSets.java" />
         <option value="$PROJECT_DIR$/src/DynamicPrograming/NumOfSubArrayAddUpToK.java" />
+        <option value="$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java" />
       </list>
     </option>
   </component>
@@ -146,8 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,8 +182,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DynamicPrograming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,27 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumOfSubArrayAddUpToK">
-    <configuration default="false" name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.ThreeSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.KnapSack01">
     <configuration default="false" name="MagicIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -291,6 +298,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="DynamicPrograming.NumOfSubArrayAddUpToK" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DynamicPrograming.KnapSack01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -707,19 +734,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ThreeSum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MagicIndex" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RatInMaze" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SubSets" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NumOfSubArrayAddUpToK" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MagicIndex" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RatInMaze" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SubSets" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NumOfSubArrayAddUpToK" />
+      <item index="4" class="java.lang.String" itemvalue="Application.KnapSack01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NumOfSubArrayAddUpToK" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SubSets" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RatInMaze" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MagicIndex" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreeSum" />
+        <item index="0" class="java.lang.String" itemvalue="Application.KnapSack01" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NumOfSubArrayAddUpToK" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SubSets" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RatInMaze" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MagicIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -746,7 +773,8 @@
       <workItem from="1545376225255" duration="113000" />
       <workItem from="1547530235889" duration="7407000" />
       <workItem from="1552025817471" duration="252000" />
-      <workItem from="1556684744588" duration="1355000" />
+      <workItem from="1556684744588" duration="1862000" />
+      <workItem from="1556856225973" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="Pruning Tree Problem">
       <created>1540363344213</created>
@@ -773,7 +801,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185881000" />
+    <option name="totallyTimeSpent" value="187778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -788,7 +816,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3799435" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064972" sideWeight="0.49453124" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064972" sideWeight="0.49453124" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -847,13 +875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/NodeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1183,8 +1204,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/NumOfSubArrayAddUpToK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="210">
           <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
           <folding />
         </state>
       </provider>
