@@ -49,9 +49,10 @@ public class KnapSack01 {
 
         if (total < w[i]){
             res = recursive(w, v, total, i - 1);
+        } else {
+            res = Math.max(recursive(w, v, total, i - 1), v[i] + recursive(w, v, total - w[i], i - 1));
         }
 
-        res = Math.max(recursive(w, v, total, i - 1), v[i] + recursive(w, v, total - w[i], i - 1));
         map.put(key, res);
 
         return res;
