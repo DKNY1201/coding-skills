@@ -1,4 +1,4 @@
-package Dojo.Array.Array;
+package Array;
 
 /**
  * Created by Bi on 8/15/18.

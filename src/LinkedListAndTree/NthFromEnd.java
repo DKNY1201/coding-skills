@@ -1,4 +1,4 @@
-package Dojo.Array.LinkedListAndTree;
+package LinkedListAndTree;
 
 /**
  * Created by Bi on 8/23/18.

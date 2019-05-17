@@ -1,4 +1,4 @@
-package Dojo.Array.TwoDimensionalArray;
+package TwoDimensionalArray;
 
 import java.util.HashSet;
 

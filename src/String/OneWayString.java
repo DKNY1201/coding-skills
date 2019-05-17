@@ -1,4 +1,4 @@
-package Dojo.Array.String;
+package String;
 
 /**
  * Created by Bi on 8/16/18.

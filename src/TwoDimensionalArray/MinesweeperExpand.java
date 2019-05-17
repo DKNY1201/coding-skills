@@ -1,6 +1,4 @@
-package Dojo.Array.TwoDimensionalArray;
-
-import javafx.geometry.Pos;
+package TwoDimensionalArray;
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;

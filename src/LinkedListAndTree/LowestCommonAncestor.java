@@ -1,4 +1,4 @@
-package Dojo.Array.LinkedListAndTree;
+package LinkedListAndTree;
 
 import java.util.HashMap;
 import java.util.Stack;

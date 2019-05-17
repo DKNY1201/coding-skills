@@ -1,4 +1,4 @@
-package Dojo.Array.String;
+package String;
 
 import java.util.Hashtable;
 

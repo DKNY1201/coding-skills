@@ -1,4 +1,4 @@
-package Dojo.Array.TwoDimensionalArray;
+package TwoDimensionalArray;
 
 /**
  * Created by Bi on 8/22/18.
