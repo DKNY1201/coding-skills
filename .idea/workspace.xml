@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3468cd-5b8e-44d1-bc47-f7bbc56d519b" name="Default" comment="Backtracking - Generate all subsets">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/RatInAMaze.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Greedy/Dijkstra.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,33 +32,13 @@
       <file leaf-file-name="SubSets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/SubSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="450">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubsetSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/SubsetSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,11 +65,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RatInAMaze.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RatInAMaze.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackTracking/RatInAMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="600">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KnapSack01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/Dijkstra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BackTracking/NQueen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sudoku.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BackTracking/Sudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -100,26 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
               <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingSunViewBuildings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/SettingSunViewBuildings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="78" lean-forward="false" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnapSack01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,6 +142,7 @@
     <findStrings>
       <find>getListOfBinaryTree</find>
       <find>0</find>
+      <find>y</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,9 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StringAndArray/ValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StringAndArray/Palindrome.java" />
-        <option value="$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/Intersection.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/ThreeInOne.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/QueueViaStacks.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/SortStack.java" />
@@ -204,6 +204,9 @@
         <option value="$PROJECT_DIR$/src/BackTracking/SubSets.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/CanSolveMaze.java" />
         <option value="$PROJECT_DIR$/src/BackTracking/RatInAMaze.java" />
+        <option value="$PROJECT_DIR$/src/BackTracking/NQueen.java" />
+        <option value="$PROJECT_DIR$/src/BackTracking/Sudoku.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/Dijkstra.java" />
       </list>
     </option>
   </component>
@@ -262,60 +265,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicPrograming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackTracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Array" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -344,67 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RatInAMaze">
-    <configuration default="false" name="SettingSunViewBuildings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Array.SettingSunViewBuildings" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BackTracking.ArrayPermutation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SubSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BackTracking.SubSets" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Dijkstra">
     <configuration default="false" name="CanSolveMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -433,6 +322,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="BackTracking.RatInAMaze" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BackTracking.NQueen" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BackTracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BackTracking.Sudoku" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Greedy.Dijkstra" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -849,18 +798,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SettingSunViewBuildings" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrayPermutation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SubSets" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CanSolveMaze" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RatInAMaze" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CanSolveMaze" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RatInAMaze" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NQueen" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Sudoku" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Dijkstra" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.RatInAMaze" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CanSolveMaze" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SubSets" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayPermutation" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Dijkstra" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sudoku" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NQueen" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RatInAMaze" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CanSolveMaze" />
       </list>
     </recent_temporary>
   </component>
@@ -890,7 +840,7 @@
       <workItem from="1556684744588" duration="1862000" />
       <workItem from="1556856225973" duration="13232000" />
       <workItem from="1557614143213" duration="1168000" />
-      <workItem from="1558078138684" duration="9992000" />
+      <workItem from="1558078138684" duration="24498000" />
     </task>
     <task id="LOCAL-00001" summary="Pruning Tree Problem">
       <created>1540363344213</created>
@@ -934,11 +884,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558505446568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Backtracking - N Queen problem">
+      <created>1558768943429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558768943429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Backtracking - Sudoku">
+      <created>1559023363488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559023363488</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210780000" />
+    <option name="totallyTimeSpent" value="225286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -953,7 +917,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3799435" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064972" sideWeight="0.49453124" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064972" sideWeight="0.49453124" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -966,7 +930,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4618644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -989,7 +953,9 @@
     <MESSAGE value="Subset Sum DP problem" />
     <MESSAGE value="Backtracking - Generate all subsets" />
     <MESSAGE value="Backtracking - Solve the maze" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backtracking - Solve the maze" />
+    <MESSAGE value="Backtracking - N Queen problem" />
+    <MESSAGE value="Backtracking - Sudoku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backtracking - Sudoku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1030,8 +996,20 @@
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackTracking/NQueen.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackTracking/Sudoku.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="68" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1040,27 +1018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/QueueViaStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/SortStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crackingthecodinginterview/Recursive/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1312,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/SubsetSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
@@ -1355,18 +1304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/SubSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/ArrayPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1393,11 +1330,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackTracking/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackTracking/SubSets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackTracking/RatInAMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="600">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackTracking/Sudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="87" column="39" lean-forward="true" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DynamicPrograming/KnapSack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
