@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3468cd-5b8e-44d1-bc47-f7bbc56d519b" name="Default" comment="Backtracking - Generate all subsets">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Greedy/FractionalKnapsack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,18 +25,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayPermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/ArrayPermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FractionalKnapsack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FractionalKnapsack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Greedy/FractionalKnapsack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -92,6 +80,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/QueueViaStacks.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/StackAndQueue/SortStack.java" />
         <option value="$PROJECT_DIR$/src/crackingthecodinginterview/LinkedList/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/datastructure/BST.java" />
@@ -206,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/BackTracking/Sudoku.java" />
         <option value="$PROJECT_DIR$/src/Greedy/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/Greedy/FractionalKnapsack.java" />
+        <option value="$PROJECT_DIR$/src/Array/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -304,6 +302,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -332,27 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FractionalKnapsack">
-    <configuration default="false" name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BackTracking.RatInAMaze" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithm" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration default="false" name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -421,6 +417,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Greedy.FractionalKnapsack" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithm" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Array.MergeSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -837,19 +853,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RatInAMaze" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NQueen" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Sudoku" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Dijkstra" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
+      <item index="0" class="java.lang.String" itemvalue="Application.NQueen" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Sudoku" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Dijkstra" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Dijkstra" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Sudoku" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NQueen" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RatInAMaze" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MergeSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FractionalKnapsack" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Dijkstra" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Sudoku" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -879,7 +895,7 @@
       <workItem from="1556684744588" duration="1862000" />
       <workItem from="1556856225973" duration="13232000" />
       <workItem from="1557614143213" duration="1168000" />
-      <workItem from="1558078138684" duration="27055000" />
+      <workItem from="1558078138684" duration="29066000" />
     </task>
     <task id="LOCAL-00001" summary="Pruning Tree Problem">
       <created>1540363344213</created>
@@ -941,7 +957,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227843000" />
+    <option name="totallyTimeSpent" value="229854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -1053,8 +1069,14 @@
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/MergeSort.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1063,13 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/String/FindAndReplacePattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/SystemDesign/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -1429,6 +1444,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
