@@ -1,7 +1,5 @@
 package String;
 
-import java.util.Arrays;
-
 /**
  * Created by Bi on 6/14/19.
  */
@@ -13,10 +11,24 @@ public class RepeatedSubString {
         System.out.println(repeatedSubString("AaAaA"));
     }
 
+    /**
+     * suffix string array = [banana, anana, nana, ana, na, a]
+     * after sorted with index = [a (5), ana (3), anana(1), banana(0), na(4), nana(2)]
+     * suffix array = [5, 3, 1, 0, 4, 2]
+     * LCP = [0, 1, 3, 0, 0, 2]. Note: 1st of LCP always 0
+     *
+     * suffix strings       suffix array        LCP
+     * a                        5                0
+     * ana                      3                1
+     * anana                    1                3
+     * banana                   0                0
+     * na                       4                0
+     * nana                     2                2
+     */
     public static int repeatedSubString(String s) {
-        int[] suffixesArr = generateSuffixArray(s);
+        int[] suffixesArr = Utils.generateSuffixArray(s);
         // Longest common prefix
-        int[] LCP = generateLCP(s, suffixesArr);
+        int[] LCP = Utils.generateLCP(s, suffixesArr);
         int res = 0;
 
         for (int i = 1; i < LCP.length; i++) {
@@ -26,50 +38,5 @@ public class RepeatedSubString {
         }
 
         return res;
-    }
-
-    public static int[] generateSuffixArray(String s) {
-        int len = s.length();
-        Suffix[] suffixes = new Suffix[len];
-
-        for (int i = 0; i < len; i++) {
-            Suffix sf = new Suffix(s, i);
-            suffixes[i] = sf;
-        }
-
-        Arrays.sort(suffixes);
-        int[] res = new int[len];
-
-        for (int i = 0; i < len; i++) {
-            res[i] = suffixes[i].index;
-        }
-
-        return res;
-    }
-
-    public static int[] generateLCP(String s, int[] sa) {
-        int len = s.length();
-        int[] LCP = new int[len];
-        LCP[0] = 0;
-
-        for (int i = 1; i < len; i++) {
-            String s1 = s.substring(sa[i]);
-            String s2 = s.substring(sa[i - 1]);
-            // Length of shorter string
-            int n = s1.length() < s2.length() ? s1.length() : s2.length();
-            int val = 0;
-
-            for (int j = 0; j < n; j++) {
-                if (s1.charAt(j) == s2.charAt(j)) {
-                    val++;
-                } else {
-                    break;
-                }
-            }
-
-            LCP[i] = val;
-        }
-
-        return LCP;
     }
 }
