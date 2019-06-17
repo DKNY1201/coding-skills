@@ -11,7 +11,7 @@ public class Utils {
         Suffix[] suffixes = new Suffix[len];
 
         for (int i = 0; i < len; i++) {
-            Suffix sf = new Suffix(s, i);
+            Suffix sf = new Suffix(s, i, 0);
             suffixes[i] = sf;
         }
 

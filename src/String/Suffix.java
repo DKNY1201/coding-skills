@@ -6,10 +6,13 @@ package String;
 public class Suffix implements Comparable<Suffix> {
     String text;
     int index;
+    // For concatenate strings from LongestCommonSubStringOfKStringsInMultipleStrings problem
+    int stringOrder;
 
-    public Suffix(String text, int index) {
+    public Suffix(String text, int index, int stringOrder) {
         this.text = text;
         this.index = index;
+        this.stringOrder = stringOrder;
     }
 
     public char charAt(int i) {
@@ -17,7 +20,7 @@ public class Suffix implements Comparable<Suffix> {
     }
 
     public String toString() {
-        return text.substring(index);
+        return text.substring(index) + ". Index: " + index + ". String order: " + stringOrder;
     }
 
     public int length() {
